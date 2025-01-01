@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:"IBM Plex Sans";
+    font-weight: 500;
+    border:0px;
+    color:#14213d;
+}
+body{
+    background-color: #14213d;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+label{
+    font-size: 1.1rem;
+}
+#amount,#result{
+    padding:0.4rem;
+    padding-left:0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 30px;
+    width:19.5rem;
+    border:2px solid #e5e5e5;
+}
+.container{
+    height:25rem;
+    width:23rem;
+    background-color: pink;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    background-color: #fca311;
+    border:2px solid #e5e5e5;
+}
+.conversion{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+img{
+    height:2.6rem;
+    width:2.8rem;
+}
+.curr{
+    padding:0.9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    border:2px solid #e5e5e5;
+}
+select{
+    height:1.7rem;
+    border-radius: 0.5rem;
+}
+.rule{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+button{
+    padding:0.7rem;
+    width:6rem;
+    border-radius: 0.5rem;
+    align-self:center;
+    background-color: #14213d;
+    color:#e5e5e5;
+    border:2px solid #e5e5e5;
+}
+.button{
+    text-align: center;
+}
